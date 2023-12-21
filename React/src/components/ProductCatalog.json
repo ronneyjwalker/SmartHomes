@@ -1,0 +1,248 @@
+{
+  "users": [
+    {
+      "username": "c1",
+      "password": "c1",
+      "usertype": "customer"
+    },
+    {
+      "username": "c2",
+      "password": "c2",
+      "usertype": "customer"
+    },
+    {
+      "username": "s1",
+      "password": "s1",
+      "usertype": "salesman"
+    },
+    {
+      "username": "s2",
+      "password": "s2",
+      "usertype": "salesman"
+    },
+    {
+      "username": "m1",
+      "password": "m1",
+      "usertype": "storemanager"
+    },
+    {
+      "username": "m2",
+      "password": "m2",
+      "usertype": "storemanager"
+    }
+  ],
+  "products": [
+    {
+      "doorbells": [
+        {
+          "name": "Google Nest",
+          "price": 179,
+          "image": "../images/doorbell/doorbell1.jpg",
+          "manufacturer": "Google",
+          "condition": "New",
+          "discount": 10.0
+        },
+        {
+          "name": "Arlo Essential",
+          "price": 68.05,
+          "image": "../images/doorbell/doorbell2.jpg",
+          "manufacturer": "Arlo",
+          "condition": "New",
+          "discount": 10.0
+        },
+        {
+          "name": "Ring Video",
+          "price": 64.99,
+          "image": "../images/doorbell/doorbell3.jpg",
+          "manufacturer": "Ring",
+          "condition": "New",
+          "discount": 10.0
+        },
+        {
+          "name": "Anker eufy Security",
+          "price": 129.99,
+          "image": "../images/doorbell/doorbell4.jpg",
+          "manufacturer": "eufy",
+          "condition": "New",
+          "discount": 10.0
+        },
+        {
+          "name": "Ring Plus Wifi",
+          "price": 179.99,
+          "image": "../images/doorbell/doorbell5.jpg",
+          "manufacturer": "Ring",
+          "condition": "New",
+          "discount": 10.0
+        }
+      ],
+      "doorlocks": [
+        {
+          "name": "Lockstar",
+          "price": 159.97,
+          "image": "../images/doorlock/doorlock1.jpg",
+          "manufacturer": "Lockstar",
+          "condition": "New",
+          "discount": 40.0
+        },
+        {
+          "name": "Schlage Deadbolt",
+          "price": 266.89,
+          "image": "../images/doorlock/doorlock2.jpg",
+          "manufacturer": "Schlage store",
+          "condition": "New",
+          "discount": 20.0
+        },
+        {
+          "name": "ULTRALOQ U-Bolt",
+          "price": 143.65,
+          "image": "../images/doorlock/doorlock3.jpg",
+          "manufacturer": "ULTRALOQ",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "eufy Security",
+          "price": 99.99,
+          "image": "../images/doorlock/doorlock4.jpg",
+          "manufacturer": "eufy",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Sifely Smart Lock",
+          "price": 99.99,
+          "image": "../images/doorlock/doorlock5.jpg",
+          "manufacturer": "Sifely",
+          "condition": "New",
+          "discount": 15.0
+        }
+      ],
+      "speakers": [
+        {
+          "name": "Sonos",
+          "price": 289.0,
+          "image": "../images/speaker/speaker1.jpg",
+          "manufacturer": "Sonos",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Echo (4th Gen)",
+          "price": 99.99,
+          "image": "../images/speaker/speaker2.jpg",
+          "manufacturer": "Amazon",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Google Nest",
+          "price": 99.99,
+          "image": "../images/speaker/speaker3.jpg",
+          "manufacturer": "Google",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Yamaha ATS-2090",
+          "price": 179.99,
+          "image": "../images/speaker/speaker4.jpg",
+          "manufacturer": "Yamaha",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Echo Dot (5th Gen)",
+          "price": 59.0,
+          "image": "../images/speaker/speaker5.jpg",
+          "manufacturer": "Amazon",
+          "condition": "New",
+          "discount": 15.0
+        }
+      ],
+      "lightings": [
+        {
+          "name": "Philips Hue",
+          "price": 99.99,
+          "image": "../images/lighting/light1.jpg",
+          "manufacturer": "Philips",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Philips Hue White",
+          "price": 69.99,
+          "image": "../images/lighting/light2.jpg",
+          "manufacturer": "Philips",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Govee Wi-Fi RGBIC",
+          "price": 60.99,
+          "image": "../images/lighting/light3.jpg",
+          "manufacturer": "Govee",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Nanoleaf A19",
+          "price": 49.99,
+          "image": "../images/lighting/light4.jpg",
+          "manufacturer": "TakeTwoInteractive",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Govee",
+          "price": 75.99,
+          "image": "../images/lighting/light5.jpg",
+          "manufacturer": "Govee",
+          "condition": "New",
+          "discount": 15.0
+        }
+      ],
+      "thermostats": [
+        {
+          "name": "Google Nest",
+          "price": 249.99,
+          "image": "../images/thermostat/thermostat1.jpg",
+          "manufacturer": "Google",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "ecobee Premium",
+          "price": 249.99,
+          "image": "../images/thermostat/thermostat2.jpg",
+          "manufacturer": "ElectronicArts",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Emerson Sensi Lite",
+          "price": 89.99,
+          "image": "../images/thermostat/thermostat3.jpg",
+          "manufacturer": "Emerson",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "ecobee 3 lite",
+          "price": 149.99,
+          "image": "../images/thermostat/thermostat4.jpg",
+          "manufacturer": "echobee",
+          "condition": "New",
+          "discount": 15.0
+        },
+        {
+          "name": "Google Nest Smart",
+          "price": 129.99,
+          "image": "../images/thermostat/thermostat5.jpg",
+          "manufacturer": "Google",
+          "condition": "New",
+          "discount": 15.0
+        }
+      ]
+    }
+  ]
+}
