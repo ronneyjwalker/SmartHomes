@@ -1,0 +1,44 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.login-button {
+  color: white;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.welcome-note {
+  flex-grow: 1;
+}
+
+.slider {
+  flex-shrink: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
